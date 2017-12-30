@@ -1,0 +1,12 @@
+platform :ios, '8.0'
+def pods
+	pod 'AFNetworking','~> 3.1.0'
+	pod 'FMDB','~> 2.7.2'
+    pod 'Masonry'
+end
+
+target 'ImagesHomes' do
+  	pods
+end
+
+
